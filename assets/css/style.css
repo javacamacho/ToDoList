@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+input {
+    width: 200px;
+    margin-right: 10px;
+}
+
+#btnAgregar {
+    width: 100px;
+}
+
+li {
+    list-style: none;
+}
